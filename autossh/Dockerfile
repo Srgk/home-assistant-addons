@@ -1,4 +1,4 @@
-FROM ghcr.io/home-assistant/arm64-base:latest
+FROM ghcr.io/home-assistant/aarch64-base:latest
 
 ARG BUILD_ARCH
 ARG BUILD_DATE
@@ -19,7 +19,7 @@ LABEL \
     maintainer="Thomas Dietrich" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.source="https://github.com/ThomDietrich/home-assistant-addons" \
+    org.opencontainers.image.source="https://github.com/Srgk/home-assistant-addons" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
