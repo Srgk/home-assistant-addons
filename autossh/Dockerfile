@@ -1,4 +1,4 @@
-FROM ghcr.io/home-assistant/amd64-base:latest
+FROM ghcr.io/home-assistant/arm64-base:latest
 
 ARG BUILD_ARCH
 ARG BUILD_DATE
