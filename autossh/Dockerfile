@@ -1,6 +1,4 @@
-
-ARG BUILD_FROM="ghcr.io/home-assistant/amd64-base:latest"
-FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/amd64-base:latest
 
 ARG BUILD_ARCH
 ARG BUILD_DATE
